@@ -1,15 +1,49 @@
 # Red Teaming Squad
 
 
-## Macro
+## Social Engineering Toolkit
 
-### What is Macro?
-
-Whenever we work with an excel or a word file and we want a certain repetitive task that we wish just get automated without our intervention at that time we can use macro. Macros are similar to Visual Basic Scripts that can be crafted and shared and it works in the background without any knowledge of the user. We can use malicious macro to gain access of victim's machine. Attacker will create a word or excel file then attacker opens the macro editor to generate a script which can generate the session from victim'e machine to attacker's machine. 
+The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. The Social-Engineer Toolkit (SET) is specifically designed to perform advanced attacks against the human element.
 
 
-### Generate macro payloads using Empire
+### Installation
 
-You can install Empire tool from github or by executing ```git clone https://github.com/EmpireProject/Empire``` command. Navigate to ```Empire``` directory and execute ```./empire``` command. Now start a listener using ```uselistener http``` then check that your listener is active or not using ```listeners``` command.
+You can install "Social Engineering Toolkit" using following commands:
 
-<kbd>![](Macro_Payloads/1.png)</kbd>
+```
+git clone https://github.com/trustedsec/social-engineer-toolkit/
+cd social-engineer-toolkit
+pip3 install -r requirements.txt
+```
+
+### Usage
+
+Run ```python setup.py``` command and select option as per your requirement. Here I want to dump the credentials so I am using "Social-Engineering Attacks" option.
+
+<kbd>![](Social_Engineering_Toolkit/01.png)</kbd>
+
+You can select the attack type from the menu. Here I am selecting "Website Attack Vectors" option.
+
+<kbd>![](Social_Engineering_Toolkit/2.png)</kbd>
+
+You can select any method from the menu. Here I am selecting "Credential Harvester Attack Method" option.
+
+<kbd>![](Social_Engineering_Toolkit/3.png)</kbd>
+
+You can select any option from the menu. Here I am selecting "Site Cloner" option.
+
+<kbd>![](Social_Engineering_Toolkit/4.png)</kbd>
+
+Now you have to enter the URL of the website which you want to clone. Here I am entering "mail.google.com".
+
+<kbd>![](Social_Engineering_Toolkit/5.png)</kbd>
+
+Social Engineering Toolkit will host the cloned website on your localhost. You can use port forwarding to access the cloned website over internet. Send the URL to victim and vitim will enter his/her credentials in cloned website and you will get the credentials of the victim.
+
+<kbd>![](Social_Engineering_Toolkit/6.png)</kbd>
+
+As soon as the victim hits sign in, we are presented with the credentials.
+
+<kbd>![](Social_Engineering_Toolkit/7.png)</kbd>
+
+For more use cases, visit this [URL](https://github.com/trustedsec/social-engineer-toolkit/raw/master/readme/User_Manual.pdf).
