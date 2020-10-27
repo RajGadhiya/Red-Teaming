@@ -1,4 +1,4 @@
-#Red Teaming Squad
+# Red Teaming Squad
 
 
 ## Macro
