@@ -3,7 +3,7 @@
 
 ## Social Engineering Toolkit
 
-The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. The Social-Engineer Toolkit (SET) is specifically designed to perform advanced attacks against the human element.
+The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. SET is specifically designed to perform advanced attacks against the human element.
 
 
 ### Installation
