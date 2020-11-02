@@ -38,7 +38,7 @@ Now execute the powershell command through powershell using any social engineeri
 
 <kbd>![](Weaponization/5.png)</kbd>
 
-Once the PowerShell code was executed in the victim’s powershell command promt, you will see a meterpreter session of your victim. 
+Once the PowerShell code will be executed in the victim’s powershell command promt, you will see a meterpreter session of your victim. 
 
 <kbd>![](Weaponization/6.png)</kbd>
 
