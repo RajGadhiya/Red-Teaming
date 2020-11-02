@@ -75,3 +75,24 @@ Whenever victim will visit the URL, your payload will be downloaded into victim'
 <kbd>![](Weaponization/10.png)</kbd>
 
 For more use cases, you can use ```python embedInHTML.py -h``` command or you can visit this [URL](https://github.com/Arno0x/EmbedInHTML).
+
+
+## NPS (NotPowerShell)
+
+NPS is a windows executable file which allows attacker to use powershell commands through ```cmd.exe```.
+
+### Usage
+
+Download from this [Link](https://github.com/Ben0xA/nps/blob/master/binary/nps.zip).
+
+<kbd>![](Weaponization/11.png)</kbd>
+
+Now use ```nps.exe <Any_Powershell_command>``` command to execute the powershell command in victim's ```cmd.exe```.
+
+<kbd>![](Weaponization/12.png)</kbd>
+
+You can use ```;``` to execute two or more powershell commands in single command.
+
+<kbd>![](Weaponization/13.png)</kbd>
+
+For more use cases, you can visit this [URL](https://github.com/Ben0xA/nps).
