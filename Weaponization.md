@@ -74,4 +74,4 @@ Whenever victim will visit the URL, your payload will be downloaded into victim'
 
 <kbd>![](Weaponization/10.png)</kbd>
 
-For more use cases, you can use ```python embedInHTML.py help``` command or you can visit this [URL](https://github.com/Arno0x/EmbedInHTML).
+For more use cases, you can use ```python embedInHTML.py -h``` command or you can visit this [URL](https://github.com/Arno0x/EmbedInHTML).
