@@ -55,4 +55,4 @@ One of the benefit of ares tool is that victim won't notice that any unwanted ap
 
 <kbd>![](Command_&_Control/8.png)</kbd>
 
-For more use cases, you can use ```./builder.py --help``` command or you can visit this [URL](https://github.com/trustedsec/unicorn).
+For more use cases, you can use ```./builder.py --help``` command or you can visit this [URL](https://github.com/sweetsoftware/Ares).
