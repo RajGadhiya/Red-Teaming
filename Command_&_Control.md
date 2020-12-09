@@ -56,3 +56,39 @@ One of the benefit of ares tool is that victim won't notice that any unwanted ap
 <kbd>![](Command_&_Control/8.png)</kbd>
 
 For more use cases, you can use ```./builder.py --help``` command or you can visit this [URL](https://github.com/sweetsoftware/Ares).
+
+
+## C2 with Javascript : JSRat
+
+This tool is developed in JavaScript. It allows the payload to connect to the listening server. These features were created in python which allows the server to be both Linux and Windows friendly. The basic protocol used is HTTP for the server to work.
+
+
+### Installation
+
+You can install "Ares" using following command:
+
+```
+git clone https://github.com/Hood3dRob1n/JSRat-Py
+```
+
+<kbd>![](Command_&_Control/9.png)</kbd>
+
+### Usage
+
+First of all you have to start the server at attacker's IP address using ```./JSRat.py -i 192.168.43.250 -p 4545```.
+
+<kbd>![](Command_&_Control/10.png)</kbd>
+
+You can find these files by accessing the server from your or victim’s browser. If you look closely, there is a code given on the server. This code allows you to execute a rundll attack. Copy this code and paste it in the command prompt of the victims’ PC.
+
+<kbd>![](Command_&_Control/11.png)</kbd>
+
+As soon as the command is executed you will have a session.
+
+<kbd>![](Command_&_Control/12.png)</kbd>
+
+Now you can run any commands on victim's machine.
+
+<kbd>![](Command_&_Control/13.png)</kbd>
+
+For more use cases, you can use ```./JSRat.py --help``` command or you can visit this [URL](https://github.com/Hood3dRob1n/JSRat-Py).
