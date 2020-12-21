@@ -92,3 +92,4 @@ Now you can run any commands on victim's machine.
 <kbd>![](Command_&_Control/13.png)</kbd>
 
 For more use cases, you can use ```./JSRat.py --help``` command or you can visit this [URL](https://github.com/Hood3dRob1n/JSRat-Py).
+
