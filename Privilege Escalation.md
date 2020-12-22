@@ -12,7 +12,7 @@ The vulnerability is related to the path of the executable that has a space in t
 
 Run ```sc qc unquotedsvc``` command and observe the BINARY_PATH_NAME from the output. Here file name is not in enclosed quotes ("") so its vulnerable to unquoted service path attack.
 
-![](Privilege Escalation/1.png)
+<kbd>![](Privilege Escalation/1.png)</kbd>
 
 Now create a malicious exe file using msfvenom or any other tool. Here I am using msfvenom and creating a exe file which will add ```user``` user into local administrator group. 
 
