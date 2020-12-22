@@ -41,3 +41,4 @@ Now check the local administrators again using the same command.
 <kbd>![](Privilege_Escalation/7.png)</kbd>
 
 Observe that our user is added into local administrators.
+
