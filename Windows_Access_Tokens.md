@@ -1,4 +1,4 @@
-#Red Teaming Squad : Credential Access
+# Red Teaming Squad : Credential Access
 
 
 ## Windows Access Token
